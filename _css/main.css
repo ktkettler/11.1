@@ -54,22 +54,21 @@ table {
 }
 body{
 	max-width: 80%;  
-	padding-top: 10px;
 	text-align: center;
 	margin: auto;
 	font-family: "Lato", sans-serif;
 	line-height: 1.2em;
 }
 nav {
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding-bottom: 10px;
+	padding: 25px;
 	text-align: center;
 	font-weight: 700;
 	font-size: 1.3em;
 	border-bottom: silver 1px dotted;
+	position: fixed;
+	z-index: 100;
+	background-color: white;
+	width:80%;
 }
 a {
 	text-decoration: none;
@@ -84,11 +83,10 @@ footer {
 	color: grey;
 	text-align: center;
 	bottom: 0;
-	position: fixed;
 	padding: 25px;
 	border-top: silver 1px dotted;
-	width: 80%;
 	margin-top: 10px;
+	clear: both;
 }
 h1 {
 	font-size: 2em;
@@ -102,8 +100,19 @@ h2 {
 	color: grey;
 	padding-bottom: 10px;
 }
+h3 {
+	font-size: 1.3em;
+	font-weight: 700;
+	padding-bottom: 5px;
+}
+/*Classes*/
 .item {
 	width: 66%;
 	padding: 10px;
 	float: left;
+	text-align: left;
+}
+.prices {
+	text-align: left;
+	margin: auto;
 }

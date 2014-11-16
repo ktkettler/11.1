@@ -117,12 +117,15 @@ h3 {
 	float: right;
 	padding: 15px 0px 15px 0px;
 	position: relative;
-	
 	}
 .container {
 	position: relative;
 	padding-top: 150px;
 }
+.navLink {
+	padding-left: 15px;
+}
+/*IDs*/
 #menuTitle {
 	width: 66%;
 	padding: 10px;
